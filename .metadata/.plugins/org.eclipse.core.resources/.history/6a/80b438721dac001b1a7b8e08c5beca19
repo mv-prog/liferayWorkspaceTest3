@@ -1,0 +1,8 @@
+<%@ include file="/init.jsp" %>
+
+<portlet:renderUrl var="viewRedURL">
+	<portlet:param name="backgroundColor" value="red" />
+</portlet:renderUrl>
+<portlet:renderUrl var="viewYellowURL">
+<portlet:param name="backgroundColor" value="yellow"/>
+</portlet:renderUrl>

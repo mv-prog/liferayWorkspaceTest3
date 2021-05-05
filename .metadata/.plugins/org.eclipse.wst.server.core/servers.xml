@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<servers>
+  <server auto-publish-time="0" hostname="localhost" id="liferay721" id-set="true" name="liferay721" runtime-id="liferay721" server-type="com.liferay.ide.server.portal" server-type-id="com.liferay.ide.server.portal" start-timeout="900" stop-timeout="300" timestamp="2">
+    <list key="modules" value0="portlet-module-portlet::com.liferay.ide.project.core.bundleFactory:portlet-module-portlet::liferay.bundle::1.0" value1="portlet-module2::com.liferay.ide.project.core.bundleFactory:portlet-module2::liferay.bundle::1.0"/>
+  </server>
+</servers>

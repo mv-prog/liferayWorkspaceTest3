@@ -1,0 +1,32 @@
+<%@ include file="/init.jsp" %>
+<%
+	String cssStyle="";
+	String backgroundColor=renderRequest.getParameter("backgroundColor");
+	if(backgroundColor != null && !backgroundColor.isEmpty()){
+		cssStyle="background-color" + backgroundColor + ";";
+	}
+%>
+<div style="<%= cssStyle %>">
+	<p class="caption">
+		<liferay-ui:message key="jsr-286-portlet.caption" />
+	</p>
+</div>
+<portlet:renderUrl var="viewRedURL">
+	<portlet:param name="backgroundColor" value="red" />
+</portlet:renderUrl>
+<portlet:renderUrl var="viewYellowURL">
+<portlet:param name="backgroundColor" value="yellow" />
+</portlet:renderUrl>
+<div class="btn-group">
+	<a class="btn btn-default" href="<%=viewRedURL%>">Set red</a>
+	<a class="btn btn-default" href="<%=viewYellowURL%>">Set yellow</a>
+</div>
+
+<portlet:actionURL name="handleForm" var="actionURL" />
+<aui:form action="<%=actionURL %>" style="margin-top:2rem;">
+<aui:select name="backgroundColor">
+	<aui:option label="aqua" />
+	<aui:option label="silver" />
+	<aui:option label="gray"/>
+</aui:select>
+</aui:form>

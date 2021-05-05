@@ -1,0 +1,5 @@
+package com.liferay.training.portlet.portletmodule.portlet.action;
+
+public class HandleFormMVCActionCommand {
+
+}

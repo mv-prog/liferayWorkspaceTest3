@@ -1,0 +1,39 @@
+package com.liferay.training.portlet.jsr286;
+
+import java.io.IOException;
+
+import javax.portlet.ActionRequest;
+import javax.portlet.ActionResponse;
+import javax.portlet.Portlet;
+import javax.portlet.PortletConfig;
+import javax.portlet.PortletException;
+import javax.portlet.RenderRequest;
+import javax.portlet.RenderResponse;
+
+public class JSR286Portlet implements Portlet {
+
+	@Override
+	public void init(PortletConfig config) throws PortletException {
+		System.out.println("inside init()");
+
+	}
+
+	@Override
+	public void processAction(ActionRequest request, ActionResponse response) throws PortletException, IOException {
+		System.out.println("inside processAction()");
+
+	}
+
+	@Override
+	public void render(RenderRequest request, RenderResponse response) throws PortletException, IOException {
+		System.out.println("inside render()");
+
+	}
+
+	@Override
+	public void destroy() {
+		System.out.println("inside destroy()");
+
+	}
+
+}

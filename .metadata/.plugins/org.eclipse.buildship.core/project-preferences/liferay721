@@ -1,0 +1,12 @@
+#
+#Wed May 05 11:50:57 CEST 2021
+classpath=<?xml version\="1.0" encoding\="UTF-8"?>\n<classpath>\n</classpath>\n
+buildScriptPath=build.gradle
+linkedResources=
+subprojectPaths=modules;wars;modules/gradebook;modules/portlet-module-portlet;wars/com.liferay.training.portlet.jsr286;modules/gradebook/gradebook-api;modules/gradebook/gradebook-service
+managedNatures=org.eclipse.jdt.core.javanature
+hasAutoBuildTasks=false
+gradleVersion=5.6.4
+buildDir=build
+managedBuilders=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><commands/>
+derivedResources=.gradle;build;modules/build;wars/build;modules/gradebook/build;modules/portlet-module-portlet/build;wars/com.liferay.training.portlet.jsr286/build;modules/gradebook/gradebook-api/build;modules/gradebook/gradebook-service/build

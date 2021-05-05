@@ -1,0 +1,24 @@
+package com.liferay.training.portlet.portletmodule.portlet.action;
+
+import com.liferay.portal.kernel.portlet.bridges.mvc.BaseMVCActionCommand;
+import com.liferay.portal.kernel.portlet.bridges.mvc.MVCActionCommand;
+
+import javax.portlet.ActionRequest;
+import javax.portlet.ActionResponse;
+
+import org.osgi.service.component.annotations.Component;
+@Component(
+	immediate=true, //this is telling the osgi container to start the component immediately if it is able to do that.
+	property = {}, //we need 2 properties
+	service = MVCActionCommand.class //if you see the keyword extends this line is mandatory: we need to register 
+)
+
+public class HandleFormMVCActionCommand extends BaseMVCActionCommand {
+
+	@Override
+	protected void doProcessAction(ActionRequest actionRequest, ActionResponse actionResponse) throws Exception {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="java.io.PrintWriter"/>
+<fullyQualifiedTypeName name="javax.portlet.PortletSession"/>
+<fullyQualifiedTypeName name="javax.portlet.PortletContext"/>
+<fullyQualifiedTypeName name="javax.portlet.PortletRequestDispatcher"/>
+<fullyQualifiedTypeName name="javax.portlet.Portlet"/>
+<fullyQualifiedTypeName name="com.liferay.portal.kernel.portlet.bridges.mvc.BaseMVCActionCommand"/>
+<fullyQualifiedTypeName name="org.osgi.service.component.annotations.Component"/>
+<fullyQualifiedTypeName name="com.liferay.portal.kernel.portlet.bridges.mvc.MVCActionCommand"/>
+<fullyQualifiedTypeName name="com.liferay.training.portlet.portletmodule.constants.PortletModulePortletKeys"/>
+<fullyQualifiedTypeName name="javax.portlet.ActionRequest"/>
+</qualifiedTypeNameHistroy>

@@ -1,0 +1,11 @@
+INDEX VERSION 1.131
+C:\Users\monica.veigapuente\Documents\liferay-workspace\test3\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\345612563.index
+\com.liferay.training.portlet.jsr286\src\main\java
+C:\Users\monica.veigapuente\Documents\liferay-workspace\test3\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3164078235.index
+\com.liferay.training.portlet.jsr286\src\main\java
+C:\Users\monica.veigapuente\Documents\liferay-workspace\test3\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2910673773.index
+\portlet-module-portlet\src\main\java
+C:\Users\monica.veigapuente\Documents\liferay-workspace\test3\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1446061956.index
+\com.liferay.training.portlet.jsr286\src\main\java
+C:\Users\monica.veigapuente\Documents\liferay-workspace\test3\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\563969325.index
+\portlet-module2\src\main\java

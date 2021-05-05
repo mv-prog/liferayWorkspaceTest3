@@ -1,0 +1,7 @@
+package com.liferay.training.portlet.portletmodule.portlet.action;
+
+import com.liferay.portal.kernel.portlet.bridges.mvc.BaseMVCActionCommand;
+
+public class HandleFormMVCActionCommand extends BaseMVCActionCommand {
+
+}

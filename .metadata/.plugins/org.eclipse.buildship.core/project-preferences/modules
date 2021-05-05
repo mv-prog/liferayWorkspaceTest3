@@ -1,0 +1,12 @@
+#
+#Wed May 05 11:50:57 CEST 2021
+classpath=<?xml version\="1.0" encoding\="UTF-8"?>\n<classpath>\n</classpath>\n
+buildScriptPath=build.gradle
+linkedResources=
+subprojectPaths=gradebook;portlet-module-portlet;gradebook/gradebook-api;gradebook/gradebook-service
+managedNatures=
+hasAutoBuildTasks=false
+gradleVersion=5.6.4
+buildDir=build
+managedBuilders=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><commands/>
+derivedResources=.gradle;build;gradebook/build;portlet-module-portlet/build;gradebook/gradebook-api/build;gradebook/gradebook-service/build
