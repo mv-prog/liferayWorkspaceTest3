@@ -35,6 +35,6 @@
     <portlet:renderURL var="editURL">
 <!--     	<portlet:param name="mvcPath" value="/edit.jsp"/> 	 -->
 		<liferay-portlet:param name="mvcRenderCommandName" value="edit-component"/>
-		<liferay-portlet:param name="backURL" value="<%= currentURL %>"/>
+<%-- 		<liferay-portlet:param name="backURL" value="<%= currentURL %>"/> --%>
     </portlet:renderURL>
     <aui:a href="<%= editURL %>"> Go to edit mode component </aui:a>
