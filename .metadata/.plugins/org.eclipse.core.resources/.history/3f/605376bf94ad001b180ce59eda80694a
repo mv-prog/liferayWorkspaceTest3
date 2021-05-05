@@ -9,12 +9,12 @@
     %>
 
 
-    <portlet:renderURL var="renderOrchid">
-        <portlet:param name="buttonBgColor" value="orchid" />
+    <portlet:renderURL var="renderDarkorchid">
+        <portlet:param name="buttonBgColor" value="darkorchid" />
     </portlet:renderURL>
 
 
-        <a class="btn btn-default" style="<%=buttonStyle%>" href="<%=renderOrchid%>">Set orchid</a> 
+        <a class="btn" style="<%=buttonStyle%>" href="<%=renderDarkorchid%>">Set dark orchid</a> 
 
     <portlet:actionURL name="formHandler" var="actionURL"/>
 
@@ -32,9 +32,9 @@
             <aui:button type="submit" style="<%=buttonStyle%>" value="send"/>
         </aui:button-row>
     </aui:form>
-    <portlet:renderURL var="editURL">
-    	<portlet:param name="mvcPath" value="/edit.jsp"/> 	
+<!--     <portlet:renderURL var="editURL"> -->
+<!--     	<liferay-portlet:param name="mvcPath" value="/edit.jsp"/> 	 -->
 <!-- 		<liferay-portlet:param name="mvcRenderCommandName" value="edit-component"/> -->
 <%-- 		<liferay-portlet:param name="backURL" value="<%= currentURL %>"/> --%>
-    </portlet:renderURL>
-    <aui:a href="<%= editURL %>"> Go to edit mode component </aui:a>
+<!--     </portlet:renderURL> -->
+<%--     <aui:a href="<%= editURL %>"> Go to edit mode component </aui:a> --%>

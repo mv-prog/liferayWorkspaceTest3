@@ -9,12 +9,12 @@
     %>
 
 
-    <portlet:renderURL var="renderOrchid">
-        <portlet:param name="buttonBgColor" value="orchid" />
+    <portlet:renderURL var="renderDarkorchid">
+        <portlet:param name="buttonBgColor" value="darkorchid" />
     </portlet:renderURL>
 
 
-        <a class="btn btn-default" style="<%=buttonStyle%>" href="<%=renderOrchid%>">Set orchid</a> 
+        <a class="btn btn-default" style="<%=buttonStyle%>" href="<%=renderDarkorchid%>">Set dark orchid</a> 
 
     <portlet:actionURL name="formHandler" var="actionURL"/>
 

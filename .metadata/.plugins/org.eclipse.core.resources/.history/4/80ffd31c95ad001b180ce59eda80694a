@@ -14,7 +14,7 @@
     </portlet:renderURL>
 
 
-        <a class="btn btn-default" style="<%=buttonStyle%>" href="<%=renderOrchid%>">Set orchid</a> 
+        <a class="btn btn-default text-light" style="<%=buttonStyle%>" href="<%=renderOrchid%>">Set orchid</a> 
 
     <portlet:actionURL name="formHandler" var="actionURL"/>
 
