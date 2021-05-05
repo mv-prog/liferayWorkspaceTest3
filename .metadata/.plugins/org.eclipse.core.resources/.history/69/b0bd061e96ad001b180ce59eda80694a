@@ -33,7 +33,7 @@
         </aui:button-row>
     </aui:form>
     <portlet:renderURL var="editURL">
-<!--     	<portlet:param name="mvcPath" value="/edit.jsp"/> 	 -->
+    	<portlet:param name="mvcPath" value="/edit.jsp"/> 	
 		<liferay-portlet:param name="mvcRenderCommandName" value="edit-component"/>
 <%-- 		<liferay-portlet:param name="backURL" value="<%= currentURL %>"/> --%>
     </portlet:renderURL>
