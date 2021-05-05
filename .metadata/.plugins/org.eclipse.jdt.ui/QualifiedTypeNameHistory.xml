@@ -5,9 +5,11 @@
 <fullyQualifiedTypeName name="javax.portlet.PortletContext"/>
 <fullyQualifiedTypeName name="javax.portlet.PortletRequestDispatcher"/>
 <fullyQualifiedTypeName name="javax.portlet.Portlet"/>
-<fullyQualifiedTypeName name="com.liferay.portal.kernel.portlet.bridges.mvc.BaseMVCActionCommand"/>
-<fullyQualifiedTypeName name="org.osgi.service.component.annotations.Component"/>
-<fullyQualifiedTypeName name="com.liferay.portal.kernel.portlet.bridges.mvc.MVCActionCommand"/>
 <fullyQualifiedTypeName name="com.liferay.training.portlet.portletmodule.constants.PortletModulePortletKeys"/>
 <fullyQualifiedTypeName name="javax.portlet.ActionRequest"/>
+<fullyQualifiedTypeName name="com.liferay.portal.kernel.portlet.bridges.mvc.BaseMVCActionCommand"/>
+<fullyQualifiedTypeName name="com.liferay.portal.kernel.portlet.bridges.mvc.MVCActionCommand"/>
+<fullyQualifiedTypeName name="org.osgi.service.component.annotations.Component"/>
+<fullyQualifiedTypeName name="com.liferay.training2.portletModule2.constants.PortletModule2PortletKeys"/>
+<fullyQualifiedTypeName name="com.liferay.portal.kernel.service.UserLocalServiceUtil"/>
 </qualifiedTypeNameHistroy>

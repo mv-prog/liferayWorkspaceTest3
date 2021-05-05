@@ -1,6 +1,7 @@
 package com.liferay.training2.portletModule2.portlet.render;
 
 import com.liferay.portal.kernel.portlet.bridges.mvc.MVCRenderCommand;
+import com.liferay.portal.kernel.service.UserLocalServiceUtil;
 import com.liferay.training2.portletModule2.constants.PortletModule2PortletKeys;
 
 import javax.portlet.PortletException;
@@ -19,7 +20,7 @@ public class EditPageMVCRenderCommand implements MVCRenderCommand {
 
 	@Override
 	public String render(RenderRequest renderRequest, RenderResponse renderResponse) throws PortletException {
-		// TODO Auto-generated method stub
+		renderRequest.setAttribute("howManyUsers", UserLocalServiceUtil.getUsersCount());
 		return "/edit.jsp";
 	}
 
