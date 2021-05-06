@@ -12,4 +12,5 @@
 <fullyQualifiedTypeName name="org.osgi.service.component.annotations.Component"/>
 <fullyQualifiedTypeName name="com.liferay.training2.portletModule2.constants.PortletModule2PortletKeys"/>
 <fullyQualifiedTypeName name="com.liferay.portal.kernel.service.UserLocalServiceUtil"/>
+<fullyQualifiedTypeName name="com.liferay.portal.kernel.util.ParamUtil"/>
 </qualifiedTypeNameHistroy>
